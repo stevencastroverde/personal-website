@@ -1,0 +1,14 @@
+.navigation {
+    display: flex;
+    flex-basis: row;
+    justify-content: space-evenly;
+    list-style: none;
+    &__item {}
+    &__link {
+        &:link,
+        &:visited {
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}
